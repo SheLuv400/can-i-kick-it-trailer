@@ -1,0 +1,22 @@
+start,end,type,cue
+0,1.5,SFX,TV interruption / static
+1.5,3,SFX,Vinyl scratch
+2.5,7.5,DJ,"AYO! Y'ALL THOUGHT THIS WAS JUST ANOTHER CARD GAME?!"
+8,38,MUSIC,Trap drop / main artist and battle section
+8,22,SFX,Arena cheers / artist entrance hits
+34,37.5,DJ,"OOOOHHH! Y'ALL HEARD THAT?!"
+38,39.5,SILENCE,Beat stops / room tail only
+39,42,SFX,Crate reveal / mystery shimmer
+42,54,MUSIC,Return of trap theme / comeback rise
+44,46,SFX,Backstage knockout / crowd gasp
+49,53,DJ,Use the comeback announcement from the original recording
+51,54,SFX,Revival / crowd cheers
+54,68,MUSIC,Funky 2000s R&B section
+68,74,MUSIC,Trap finale builds
+74,75,SILENCE,Hold before Encore impact
+75,82,MUSIC,Massive bass drop / victory
+77.5,80.5,DJ,"THAT'S GAME! MAKE SOME NOISE!"
+80,82,CROWD,WE WANT MORE!
+82,83,SILENCE,Blackout / breath
+83,84.5,SFX,Golden microphone impact / vinyl tail
+84.5,90,MUSIC,Final logo sting and fade

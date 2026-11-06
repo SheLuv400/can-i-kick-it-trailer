@@ -1,0 +1,10 @@
+import {Composition,Folder} from 'remotion';
+import {Trailer} from './Trailer';
+import {Opening} from './scenes/Opening';
+import {Artists} from './scenes/Artists';
+import {Battle} from './scenes/Battle';
+import {Comeback} from './scenes/Comeback';
+import {Mixtape} from './scenes/Mixtape';
+import {Finale} from './scenes/Finale';
+import {Endcard} from './scenes/Endcard';
+export const Root=()=> <><Composition id="Reveal" component={Trailer} durationInFrames={2700} fps={30} width={1920} height={1080}/><Folder name="Scenes"><Composition id="Opening" component={Opening} durationInFrames={240} fps={30} width={1920} height={1080}/><Composition id="Artists" component={Artists} durationInFrames={420} fps={30} width={1920} height={1080}/><Composition id="Battle" component={Battle} durationInFrames={480} fps={30} width={1920} height={1080}/><Composition id="Comeback" component={Comeback} durationInFrames={480} fps={30} width={1920} height={1080}/><Composition id="Mixtape" component={Mixtape} durationInFrames={420} fps={30} width={1920} height={1080}/><Composition id="Finale" component={Finale} durationInFrames={420} fps={30} width={1920} height={1080}/><Composition id="Endcard" component={Endcard} durationInFrames={240} fps={30} width={1920} height={1080}/></Folder></>;

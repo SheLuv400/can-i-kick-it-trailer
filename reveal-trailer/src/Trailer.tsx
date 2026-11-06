@@ -1,0 +1,11 @@
+import {Series,useVideoConfig,staticFile} from 'remotion';
+import {Audio} from '@remotion/media';
+import {Opening} from './scenes/Opening';
+import {Artists} from './scenes/Artists';
+import {Battle} from './scenes/Battle';
+import {Comeback} from './scenes/Comeback';
+import {Mixtape} from './scenes/Mixtape';
+import {Finale} from './scenes/Finale';
+import {Endcard} from './scenes/Endcard';
+import {assets} from './assets';
+export const Trailer=()=>{const {fps}=useVideoConfig();return <><Series><Series.Sequence name="01 — Broadcast interruption" durationInFrames={240} premountFor={fps}><Opening/></Series.Sequence><Series.Sequence name="02 — Artist entrances" durationInFrames={420} premountFor={fps}><Artists/></Series.Sequence><Series.Sequence name="03 — Battle insert" durationInFrames={480} premountFor={fps}><Battle/></Series.Sequence><Series.Sequence name="04 — Crate and comeback" durationInFrames={480} premountFor={fps}><Comeback/></Series.Sequence><Series.Sequence name="05 — Mixtape and menus" durationInFrames={420} premountFor={fps}><Mixtape/></Series.Sequence><Series.Sequence name="06 — Encore and victory" durationInFrames={420} premountFor={fps}><Finale/></Series.Sequence><Series.Sequence name="07 — Mic drop" durationInFrames={240} premountFor={fps}><Endcard/></Series.Sequence></Series>{assets.soundtrack?<Audio src={staticFile(assets.soundtrack)} premountFor={fps}/>:null}</>};

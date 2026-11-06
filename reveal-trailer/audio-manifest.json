@@ -1,0 +1,19 @@
+[
+ {"file":"suno-trap.wav","start":8,"duration":30,"source":0,"gain":0.55,"kind":"music"},
+ {"file":"suno-trap.wav","start":42,"duration":12,"source":30,"gain":0.5,"kind":"music"},
+ {"file":"suno-rnb.wav","start":54,"duration":14,"source":0,"gain":0.55,"kind":"music"},
+ {"file":"suno-trap.wav","start":68,"duration":6,"source":42,"gain":0.55,"kind":"music"},
+ {"file":"suno-trap.wav","start":75,"duration":7,"source":48,"gain":0.65,"kind":"music"},
+ {"file":"logo-sting.wav","start":84.5,"duration":5.5,"source":0,"gain":0.6,"kind":"music"},
+ {"file":"dj-opening.wav","start":2.5,"duration":5,"source":0,"gain":1,"kind":"voice"},
+ {"file":"dj-impact.wav","start":34,"duration":3.5,"source":0,"gain":1,"kind":"voice"},
+ {"file":"dj-comeback.wav","start":49,"duration":4,"source":0,"gain":1,"kind":"voice"},
+ {"file":"dj-victory.wav","start":77.5,"duration":3,"source":0,"gain":1,"kind":"voice"},
+ {"file":"tv-static.wav","start":0,"duration":1.5,"source":0,"gain":0.5,"kind":"sfx"},
+ {"file":"vinyl-scratch.wav","start":1.5,"duration":1.5,"source":0,"gain":0.6,"kind":"sfx"},
+ {"file":"crate-reveal.wav","start":39,"duration":3,"source":0,"gain":0.65,"kind":"sfx"},
+ {"file":"crowd-gasp.wav","start":44,"duration":2,"source":0,"gain":0.5,"kind":"sfx"},
+ {"file":"crowd-cheer.wav","start":51,"duration":3,"source":0,"gain":0.4,"kind":"sfx"},
+ {"file":"we-want-more.wav","start":80,"duration":2,"source":0,"gain":0.7,"kind":"sfx"},
+ {"file":"mic-drop.wav","start":83,"duration":1.5,"source":0,"gain":0.7,"kind":"sfx"}
+]
